@@ -18,6 +18,11 @@ public abstract class Pokemon {
 	public PokemonType getType() {
 		return type;
 	}
+	public Pokemon(String name,PokemonType type,int cp){
+		this.name = name;
+		this.type = type;
+		this.cp = cp;
+	}
 	public abstract void attack();
 
 
